@@ -27,6 +27,9 @@ width=device-width, height=device-height" />
 <script type="text/javascript" src="//www.crossui.com/libs/2.0/js/xui-all.js"></script>
 <script type="text/javascript" src="xuiconf.js"></script>
 <script type="text/javascript">
+    function(){
+        alert('Hello world');
+    }
     if(typeof(xui)!=="undefined") xui.launch(xui.getUrlParams().cls||'App/js/index.js', function(){xui('loading').remove()});
     else document.write("Can not find CrossUI library, please check it!");
 </script>
